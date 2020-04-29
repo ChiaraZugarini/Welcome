@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openResultActivity(View view) {
-        Intent intent = new Intent(getApplicationContext(), ResultActivity.class);
+        Intent intent = new Intent(getApplicationContext(), ResultActivity.class); //a
         startActivityForResult(intent, REQUEST_CODE);
     }
 
